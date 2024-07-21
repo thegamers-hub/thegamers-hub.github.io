@@ -1,52 +1,79 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home - Gaming Blog</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="Blog/blog.html">Blog</a></li>
-                <li><a href="About/about.html">About</a></li>
-                <li><a href="Contact/contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-        <section class="hero">
-            <h2>Welcome to the Gamer's Hub</h2>
-            <p>Stay updated with the latest news, reviews, and insights from the world of gaming.</p>
-            <a href="blog.html" class="btn">Read More</a>
-        </section>
+
+    <section class="hero">
+        <h2>Welcome to the Gamer's Hub</h2>
+        <p>Stay updated with the latest news, reviews, and insights from the world of gaming.</p>
+        <a href="blog.html" class="btn">Read More</a>
+    </section>
+
     <main>
         <section class="recent-posts">
-            <h2>Recent Posts</h2>
+            <h2>Latest Posts</h2>
             <div class="post">
                 <h3>Placeholder</h3>
                 <p>Placeholder...</p>
-                <a href="#">Read More</a>
+                <button class="btn openModal" data-modal="modal1">Read More</button>
             </div>
             <div class="post">
                 <h3>Placeholder</h3>
                 <p>Placeholder...</p>
-                <a href="#">Read More</a>
+                <button class="btn openModal" data-modal="modal2">Read More</button>
             </div>
             <div class="post">
                 <h3>Placeholder</h3>
                 <p>Placeholder...</p>
-                <a href="#">Read More</a>
+                <button class="btn openModal" data-modal="modal3">Read More</button>
             </div>
         </section>
     </main>
+
     <footer>
         <p>&copy; 2024 Gaming Blog. All rights reserved.</p>
     </footer>
+
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Placeholder</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis dolor ac augue commodo, nec consequat ligula posuere. Vivamus non erat sit amet leo facilisis egestas.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Placeholder</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis dolor ac augue commodo, nec consequat ligula posuere. Vivamus non erat sit amet leo facilisis egestas.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Placeholder</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis dolor ac augue commodo, nec consequat ligula posuere. Vivamus non erat sit amet leo facilisis egestas.</p>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
