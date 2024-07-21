@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+  color: #f4f4f4;
+}
+
+header {
+  background: linear-gradient(to right, #1e5799, #2989d8, #207cca, #7db9e8);
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 0.5vh 0.5vh;
+}
+
+.logo {
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 15px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border-radius: 5px;
+}
+
+.hero {
+  background: url('https://th.bing.com/th/id/R.22854896c55d58d044bdf3568985e0f4?rik=YCcgf2QgJAQ0Ug&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f06%2fMangekyou-Sharingan-Wallpapers.jpg&ehk=k5z%2fvq2t%2fuvgcF0gJLB9u8DmlKC%2bA6NJdOfPTBiIWBs%3d&risl=&pid=ImgRaw&r=0') no-repeat center center/cover;
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5em;
+  margin: 0 0 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin: 0 0 20px;
+}
+
+.hero .btn {
+  background: #2989d8;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.hero .btn:hover {
+  background: #207cca;
+}
+
+.recent-posts {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #2e2e2e; /* Dark background for recent posts section */
+    color: #f4f4f4; /* Light text color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust shadow for dark mode */
+    border-radius: 10px; /* Rounded corners for a cleaner look */
+}
+
+.recent-posts h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* Light text color */
+}
+
+.recent-posts .post {
+  background: #333; /* Dark background for individual posts */
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust shadow for dark mode */
+  border-radius: 10px; /* Rounded corners for a cleaner look */
+}
+
+.recent-posts .post h3 {
+  margin-top: 0;
+  color: #fff; /* Light text color */
+}
+
+.recent-posts .post p {
+  color: #ccc; /* Light text color */
+}
+
+.recent-posts .post a {
+  color: #2989d8;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.recent-posts .post a:hover {
+  color: #207cca;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  bottom: 0;
+}
