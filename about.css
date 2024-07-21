@@ -15,21 +15,14 @@ header {
   top: 0;
   width: 100%;
   z-index: 1000;
-  padding: 0.5vh 0.5vh;
-}
-
-.logo {
-  text-align: center;
-}
-
-nav {
-  margin-top: 10px;
+  padding: 0.5vh;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   text-align: center;
+  margin-top: 10px;
 }
 
 nav ul li {
@@ -51,7 +44,7 @@ nav ul li a:hover {
 }
 
 .about-section {
-  padding: 10vh 20px 20px 20px;
+  padding: 10vh 20px 20px;
   max-width: 800px;
   margin: 20px auto;
   background-color: #2e2e2e;
@@ -100,7 +93,7 @@ nav ul li a:hover {
 }
 
 .team-member h4 {
-  margin: 10px 0 5px 0;
+  margin: 10px 0 5px;
   color: #fff;
 }
 
