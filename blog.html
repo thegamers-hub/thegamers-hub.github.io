@@ -8,8 +8,6 @@
 </head>
 <body>
     <header>
-        <div class="logo">
-        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -24,30 +22,53 @@
             <h2>Latest Posts</h2>
             <div class="post-list">
                 <article class="post">
-                    <img src="https://via.placeholder.com/600x300" alt="Post Image">
+                    <img src="https://via.placeholder.com/600x300" alt="The Rise of Indie Games: A New Era in Gaming">
                     <h3><a href="post1.html">The Rise of Indie Games: A New Era in Gaming</a></h3>
                     <p>Indie games are taking the world by storm. In this post, we explore how indie developers are reshaping the gaming landscape and what to expect in the future.</p>
-                    <a href="post1.html" class="btn">Read More</a>
+                    <button class="btn openModal" data-modal="modal1">Read More</button>
                 </article>
                 <article class="post">
-                    <img src="https://via.placeholder.com/600x300" alt="Post Image">
+                    <img src="https://via.placeholder.com/600x300" alt="Top 10 Hidden Gems in Retro Gaming">
                     <h3><a href="post2.html">Top 10 Hidden Gems in Retro Gaming</a></h3>
                     <p>Discover some of the best hidden gems from the retro gaming era. These underrated classics are worth revisiting and will bring back nostalgic memories.</p>
-                    <a href="post2.html" class="btn">Read More</a>
+                    <button class="btn openModal" data-modal="modal2">Read More</button>
                 </article>
                 <article class="post">
-                    <img src="https://via.placeholder.com/600x300" alt="Post Image">
+                    <img src="https://via.placeholder.com/600x300" alt="How Virtual Reality is Changing the Gaming Experience">
                     <h3><a href="post3.html">How Virtual Reality is Changing the Gaming Experience</a></h3>
                     <p>Virtual Reality is revolutionizing the way we experience games. This post delves into the current VR trends and what the future holds for immersive gaming.</p>
-                    <a href="post3.html" class="btn">Read More</a>
+                    <button class="btn openModal" data-modal="modal3">Read More</button>
                 </article>
-                <!-- Add more posts as needed -->
             </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Gaming Blog. All rights reserved.</p>
     </footer>
-    <script src="script.js"></script>
+    <!-- Modals -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>The Rise of Indie Games: A New Era in Gaming</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis dolor ac augue commodo, nec consequat ligula posuere. Vivamus non erat sit amet leo facilisis egestas.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Top 10 Hidden Gems in Retro Gaming</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis dolor ac augue commodo, nec consequat ligula posuere. Vivamus non erat sit amet leo facilisis egestas.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>How Virtual Reality is Changing the Gaming Experience</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam convallis dolor ac augue commodo, nec consequat ligula posuere. Vivamus non erat sit amet leo facilisis egestas.</p>
+        </div>
+    </div>
+    <script src="blog.js"></script>
 </body>
 </html>
