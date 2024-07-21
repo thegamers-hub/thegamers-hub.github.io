@@ -15,21 +15,14 @@ header {
   top: 0;
   width: 100%;
   z-index: 1000;
-  padding: 0.5vh 0.5vh;
-}
-
-.logo {
-  text-align: center;
-}
-
-nav {
-  margin-top: 10px;
+  padding: 0.5vh;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
   text-align: center;
+  margin-top: 10px;
 }
 
 nav ul li {
