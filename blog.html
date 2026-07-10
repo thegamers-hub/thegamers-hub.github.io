@@ -44,8 +44,11 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Gaming Blog. All rights reserved.</p>
+        <p> &copy; <span id="year"></span> Gaming Blog. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
     <!-- Modals -->
     <div id="modal1" class="modal">
         <div class="modal-content">
