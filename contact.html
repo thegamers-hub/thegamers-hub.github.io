@@ -39,8 +39,11 @@
             </form>
         </section>
     </main>
-    <footer>
-        <p>&copy; 2024 Gaming Blog. All rights reserved.</p>
+   <footer>
+        <p> &copy; <span id="year"></span> Gaming Blog. All rights reserved.</p>
     </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
